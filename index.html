@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <title>EES</title>
+</head>
+<body class="centered">
+   
+    <div class="main-container">
+        <div class="row">
+            <!-- Sidebar -->
+                <div class="col-xs-6 col-md-4">
+                
+                        <div class="sidebar">
+                            <div class="student-profile"></div>
+                                <div class="student-nameID">
+                                    <h1>Wendyle Christian Seno</h1>
+                                    <p>DIET-2020-30-314</p>
+                                </div>
+
+                                <div class="btn-group-vertical">
+                                    <button type="button" class="btn btn-primary" id="first-link">Personal Details</button>
+                                    <button type="button" class="btn btn-primary" id="second-link">Family Background</button>
+                                    <button type="button" class="btn btn-primary" id="third-link">Educational Background</button>
+                                    <button type="button" class="btn btn-primary" id="last-link">Others</button>
+                                </div>
+                    </div>
+            
+            </div>
+            
+            <div class="col-xs-6 col-md-8">
+                <form>
+                   
+                    <div class="all-details">
+                    <!-- Personal -->
+                    <fieldset class="personal-details" id="personalDetails">
+                        <h1>Personal Details</h1>
+                            <div class="personal">
+                                <div class="form-group">
+                                    <label for="permanentAddress">Permanent Address</label>
+                                    <input type="text" id="permanentAddress" class="form-control" name="permanentAddress" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="placeofBirth">Place of Birth</label>
+                                    <input type="text" id="placeofBirth" class="form-control" name="placeofBirth" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="contact"> Contact No. </label>
+                                    <input type="number"  id="contact" class="form-control" name="contact" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="yearLevel">Year Level</label>
+                                    <input type="text" id="yearLevel" class="form-control" name="yearLevel" placeholder="">
+                                </div>
+                                
+                            </div>
+                    </fieldset>
+
+
+                    <!-- Family -->
+                    <fieldset class="family-background" id="familyBackground">
+                        <h1>Family Background</h1>
+                            <div class="fam">
+
+                                <div class="form-group">
+                                    <label for="fname">Father's Name</label>
+                                    <input type="text" id="fname" class="form-control" name="fathername" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="father-work">Father's Occupation</label>
+                                    <input type="text" id="father-work" class="form-control" name="father-work" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="mname">Mother's Name</label>
+                                    <input type="text" id="mname" class="form-control" name="mothername" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="mother-work">Mother's Occupation</label>
+                                    <input type="text" id="mother-work" class="form-control" name="mother-work" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="parentsContact"> Parents's Contact No. </label>
+                                    <input type="number" id="parentsContact" class="form-control" name="parentsContact" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="parentsAddress">Parent's Address</label>
+                                    <input type="text" id="parentsAddress" class="form-control" name="parentsAddress" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="numberofBrothers"> Brother(s) </label>
+                                    <input type="number" id="numberofBrothers" class="form-control" name="numberofBrothers" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="numberofSisters"> Sister(s) </label>
+                                    <input type="number" id="numberofSisters" class="form-control" name="numberofSisters" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="addressNotliving">Address not living with family</label>
+                                    <input type="text" id="addressNotliving" class="form-control" name="addressNotliving" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="guardian">Guardian</label>
+                                    <input type="text" id="guardian" class="form-control" name="guardian" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Relationguardian">Relationship of the Guardian</label>
+                                    <input type="text" id="Relationguardian" class="form-control" name="Relationguardian" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="guardianContact"> Guardian Contact No. </label>
+                                    <input type="number" id="guardianContact" class="form-control" name="guardianContact" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="guardianAddress">Guardian Address</label>
+                                    <input type="text" id="guardianAddress" class="form-control" name="guardianAddress" placeholder="">
+                                </div>
+                               
+                    </fieldset>
+
+                    <!-- Education -->
+                    <fieldset class="educational-details" id="educationBackground">
+                        <h1>Educational Background</h1>
+                        <div class="education">
+                                <div class="subheader">
+                                    <h5>Elementary</h5>
+                                </div>
+                       
+                                <div class="form-group">
+                                    <label for="elementarySchool">School Name</label>
+                                    <input type="text" id="elementarySchool" class="form-control" name="elementarySchool" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="elemaddressSchool">School Address</label>
+                                    <input type="text" id="elemaddressSchool" class="form-control" name="elemaddressSchool" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="elemyearGrad"> Year Graduated </label>
+                                    <input type="number" id="elemyearGrad" class="form-control" name="elemyearGrad" placeholder="">
+                                </div>
+
+
+                                <div class="subheader">
+                                    <h5>Junior High School</h5>
+                                </div>
+                                <div class="form-group">
+                                    <label for="juniorSchool">School Name</label>
+                                    <input type="text" id="juniorSchool" class="form-control" name="juniorSchool" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="jhsschoolAddress">School Address</label>
+                                    <input type="text" id="jhsschoolAddress" class="form-control" name="jhsschoolAddress" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="junioryearGrad"> Year Graduated </label>
+                                    <input type="number" id="junioryearGrad" class="form-control" name="junioryearGrad" placeholder="">
+                                </div>
+
+                                <div class="subheader">
+                                    <h5>Senior High School</h5>
+                                </div>
+                                <div class="form-group">
+                                    <label for="seniorSchool">School Name</label>
+                                    <input type="text" id="seniorSchool" class="form-control" name="seniorSchool" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="seniorschoolAddress">School Address</label>
+                                    <input type="text" id="seniorschoolAddress" class="form-control" name="seniorschoolAddress" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="senioryearGrad"> Year Graduated </label>
+                                    <input type="number" id="senioryearGrad" class="form-control" name="senioryearGrad" placeholder="">
+                                </div>
+
+                                <div class="subheader">
+                                    <h5>College</h5>
+                                </div>
+                                <div class="form-group">
+                                    <label for="collegeSchool">School Name</label>
+                                    <input type="text" id="collegeSchool" class="form-control" name="collegeSchool" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="collegeschoolAddress">School Address</label>
+                                    <input type="text" id="collegeschoolAddress" class="form-control" name="collegeschoolAddress" placeholder="">
+                                </div>
+                                <!-- <div class="form-group">
+                                    <label for="collegeyearGrad"> Year Graduated </label>
+                                    <input type="number" id="collegeyearGrad" class="form-control" name="collegeyearGrad" placeholder="">
+                                </div> -->
+                            </div>
+                    </fieldset>
+                        
+
+                    <!-- Submit button -->
+                              
+                        <div class="btn-groupEnder" id="lastFieldsetButtons">
+                            <button type="button" class="btn btn-back">Back</button>
+                            <button type="button" class="btn btn-next">Next</button>
+                            <button type="button" class="btn btn-submit" style="display: none;">Submit</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/index.js"></script>
+    
+ 
+</body>
+</html>

@@ -1,0 +1,524 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Override css */
+.col-md-4 {
+    border-radius: 15px 0 0 15px;
+    box-shadow: 2px 0 0 0 rgba(67, 142, 185, 1), 0 0 0 0 rgba(0, 0, 0, 0.19);
+    padding-right: 0;
+    padding-left: 0;
+    width: 239px;
+    background-color: #438EB9;
+    height: 440px;
+    
+}
+
+.col-md-8 {
+    padding-right: 0;
+    width: 549px;
+    height: 440px;
+    
+}
+.row{
+    margin-right: 0px;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+/* .row::before, ::after{
+    box-sizing: unset;
+} */
+
+/* sidebarbuttonoverride */
+
+
+
+.btn-group, .btn-group-vertical{
+    margin-top: 50px;
+}
+
+.btn-group-vertical > .btn:first-child:not(:last-child){
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+.btn-group-vertical > .btn:last-child:not(:first-child){
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+.btn-group-vertical > .btn:not(:first-child):not(:last-child){
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+.btn-group-vertical > .btn, .btn-group-vertical > 
+.btn-group, .btn-group-vertical > 
+.btn-group > .btn{
+    width: 241px;
+    text-align: left;
+    border-radius: 0;
+ 
+}
+
+.btn-group-vertical > .btn + .btn, .btn-group-vertical > 
+.btn + .btn-group, .btn-group-vertical > .btn-group + .btn, .btn-group-vertical > .btn-group + .btn-group{
+    margin-top: 10px;
+}
+
+
+.btn-primary{
+    background-color:#438EB9;
+    color: #FFFFFF;
+    border: none;
+   
+}
+.btn{
+    padding: 10px 0 10px 35px;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+.form-control{
+    width: 95%;
+}
+label{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+    background-color: #FFFFFF;
+    border-right: 1px solid gray;
+    color: #438EB9;
+}
+
+.col-xs-6.col-md-8{
+
+    padding-left: 29px;
+}
+
+
+
+/* Pure CSS */
+.centered {
+    background: url("/assets/img/blurry_colorful_bg.webp") repeat fixed center center / cover rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-container {
+    background-color: #FFFFFF;
+    border: 1px solid #F3EEEA;
+    border-radius: 15px;
+    box-shadow: 3px 12px 17px -10px #01070d;
+    width: 790px;
+    height: 440px;
+}
+.sidebar{
+    width: 100%;
+    height: unset;
+    
+}
+.student-profile{
+    background-color: #FFFFFF;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: .2px solid #438EB9;
+}
+.student-nameID{
+    padding: 5px;
+    color: #FFFFFF;
+}
+.student-nameID h1{
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.student-nameID p{
+    font-size: 12px;
+    text-align: center;
+}
+.all-details{
+    height: 380px;
+}
+
+/* .all-details > fieldset {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+} */
+/* Form */
+
+.subheader h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+input[type=number]{
+    -moz-appearance:textfield;
+}
+
+
+/* Personal */
+.personal-details{
+    
+    height: 340px;
+    scrollbar-width: none;
+}
+.personal-details h1{
+    margin-top: 40px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.personal{
+    margin-top: 23px;
+    overflow-y: auto;
+    height: 250px;
+    scrollbar-width: none;
+}
+
+
+.fam{
+    margin-top: 23px;
+    overflow-y: auto;
+    height: 250px;
+    scrollbar-width: none;
+}
+.family-background{
+   
+    height: 340px;
+    scrollbar-width: none;
+}
+.family-background h1{
+    margin-top: 40px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.fam{
+    margin-top: 50px;
+}
+
+
+
+
+
+/* Educational */
+.educational-details{
+  
+    height: 340px;
+    scrollbar-width: none;
+}
+.educational-details h1{
+    font-size: 24px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+
+}
+.education{
+    margin-top: 23px;
+    overflow-y: auto;
+    height: 250px;
+    scrollbar-width: none;
+}
+
+
+
+/* Buttons */
+.btn-groupEnder{
+    
+    float: right;
+    margin-top: 37px;
+    margin-right: 28px;
+}
+.btn-groupEnder button{
+    font-size: 12px;
+    width: 100px;
+    height: 25px;
+    padding: 0px;
+    
+}
+
+.btn-next{
+    margin-left: 15px;
+    background-color: #0079FF;
+    color: #FFFFFF;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btn-back{
+    background-color: #D80032;
+    color: #FFFFFF;
+    padding: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btn-next:hover{
+    background-color: #3081D0;
+}
+.btn-back:hover{
+    background-color: #B31312;
+    color: #FFFFFF;
+}
+
+
+.btn-submit{
+    background-color: rgb(25, 113, 25);
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn{
+    margin-left: 15px;
+}
+.error {
+    border: 1px solid red;
+    
+}
+.error-message{
+    font-style: italic;
+    font-size: 7px;
+    color: red;
+    
+}
+.error-label{
+    color: red;
+}
+.success{
+    color: green;
+}
+.completed{
+    background-color: #F2F1EB;
+    color: green;
+}
+
+
+
+
+
+
+@media screen and (max-width:720px){
+    .main-container{
+        width: 250px;
+        height: 550px;
+    }
+    .btn-group, .btn-group-vertical{
+        display: none;
+    }
+    .student-profile{
+        margin-top: 10px;
+    }
+    .col-xs-6.col-md-4{
+        height: 150px;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .col-xs-6.col-md-8{
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+  
+    .btn-group, .btn-group-vertical{
+        width: 100%;
+    }
+    .btn-groupEnder{
+        float: unset;
+        margin: 0;
+        margin-top: 80px;
+    }
+    .btn-next{
+        margin-left: 25px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+    .btn-back{
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+    .personal{
+        height: 277px;
+    }
+    .personal-details {
+        height: 303px;
+        
+      }
+    .personal-details h1{
+        font-size: 18px;
+    }
+    .fam {
+        margin-top: 25px;
+      }
+    .family-background h1{
+        font-size: 18px;
+    }
+    .family-background {
+        height: 303px;
+        
+      }
+    .education{
+        margin-top: -7px;      
+    }
+      .educational-details{
+        height: 303px;
+      }
+    .educational-details h1{
+        font-size: 17px;
+
+    }
+    .subheader h5{
+        font-size: 14px;
+        font-weight: 550;
+    }
+    .btn-submit{
+        background-color: rgb(25, 113, 25);
+        color: #FFFFFF;
+    }
+    .btn.disabled, .btn[disabled], fieldset[disabled] .btn{
+        margin-left: 25px;
+    }
+    .all-details{
+        height: 280px;
+    }
+    .col-md-8 {
+        padding-right: 0;
+        width: 549px;
+        height: 250px;
+      }
+   
+}
+
+
+@media screen and (min-width:720px) and (max-width:1080px){
+    .main-container{
+        width: 420px;
+        height: 600px;
+    }
+    .all-details {
+        height: 350px;
+      }
+    .btn-group-vertical{
+        display: none;
+        
+    }
+    .student-profile{
+        margin-top: 20px;
+    }
+    .student-nameID{
+        margin-top: 10px;
+    }
+    .student-nameID h1{
+        font-size: 20px;
+    }
+    .col-xs-6.col-md-4{
+        border-radius: 15px 15px 0 0;
+        height: 180px;
+        width: 100%;
+    }
+    .col-xs-6.col-md-8{
+        width: 100%;
+        padding-left: 20px;
+        height: 365px;
+    }
+    .personal-details, .family-background, .educational-details {
+        height: 340px;
+    }
+  
+    .btn-group-vertical{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .btn-group-vertical > .btn, .btn-group-vertical > .btn-group, 
+    .btn-group-vertical > .btn-group > .btn{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px 60px;
+    }
+    .btn-group-vertical > .btn:first-child:not(:last-child){
+        width: 100%;
+        padding-left: 30%;
+        
+    }
+    .btn-group-vertical > .btn:not(:first-child):not(:last-child){
+        width: 100%;
+        padding-left: 30%;
+        
+    }
+    .btn-group-vertical > .btn:last-child:not(:first-child){
+        width: 100%;
+        padding-left: 30%;
+       
+    }
+    .btn-next{
+        margin-left: 25px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .btn-back{
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        color: #FFFFFF;
+    }
+    .btn-submit{
+        background-color: rgb(25, 113, 25);
+        color: #FFFFFF;
+    }
+    .btn.disabled, .btn[disabled], fieldset[disabled] .btn{
+        margin-left: 25px;
+    }
+    .personal-details h1{
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .family-background h1{
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .fam{
+        margin-top: 0;
+    }
+    .education{
+        margin-top: 0px;
+    }
+    .educational-details h1{
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+
+    }
+    .btn-submit{
+        background-color: rgb(25, 113, 25);
+        color: #FFFFFF;
+    }
+    .btn.disabled, .btn[disabled], fieldset[disabled] .btn{
+        margin-left: 25px;
+    }
+ 
+    .col-md-8 {
+        padding-right: 0;
+        width: 549px;
+        height: 250px;
+      }
+      .subheader h5 {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+}
