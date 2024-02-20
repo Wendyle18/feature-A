@@ -106,7 +106,7 @@ label{
 
 /* Pure CSS */
 .centered {
-    background: url("./img/blurry_colorful_bg.webp") repeat fixed center center / cover rgba(0, 0, 0, 0);
+    background: url("../img/blurry_colorful_bg.webp") repeat fixed center center / cover rgba(0, 0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
